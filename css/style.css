@@ -1,6 +1,6 @@
 :root {
-    --title-color: #322153; 
-    --primary-color: #34cb79;    
+    --title-color: #322153;
+    --primary-color: #34cb79;
 }
 
 * {
@@ -10,7 +10,6 @@
 
 html {
     font-family: 'Roboto', sans-serif;
-    
 }
 
 body {
@@ -22,14 +21,18 @@ a {
     text-decoration: none;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     color: var(--title-color);
     font-family: 'Ubuntu', sans-serif;
 }
 
-
 #page-home {
-    background: url("../assets/home-background.svg") no-repeat;    
+    background: url("../assets/home-background.svg") no-repeat;
     background-position: 40vw bottom;
     height: 120vh;
 }
@@ -61,7 +64,7 @@ h1, h2, h3, h4, h5, h6 {
     display: flex;
     margin-right: 16px;
     height: 20px;
-    width: 20px;    
+    width: 20px;
 }
 
 #page-home main {
@@ -69,16 +72,16 @@ h1, h2, h3, h4, h5, h6 {
     flex: 1;
     flex-direction: column;
     justify-content: center;
-    max-width: 560px;    
+    max-width: 560px;
 }
 
 #page-home main h1 {
-    font-size: 54px;    
+    font-size: 54px;
 }
 
 #page-home main p {
-    font-size: 24px; 
-    line-height: 38px;   
+    font-size: 24px;
+    line-height: 38px;
     margin-top: 24px;
 }
 
@@ -107,7 +110,7 @@ h1, h2, h3, h4, h5, h6 {
     justify-content: center;
     width: 72px;
     height: 72px;
-}   
+}
 
 #page-home main a span::after {
     background-image: url("../assets/search.svg");
@@ -126,20 +129,17 @@ h1, h2, h3, h4, h5, h6 {
     #page-home {
         background-position-x: 70vw;
     }
-
     #page-home .content {
         align-items: center;
         text-align: center;
     }
-
     #page-home header a {
         bottom: 48px;
         left: 50%;
         position: absolute;
         transform: translateX(-50%);
     }
-
     #page-home main {
         align-items: center;
     }
-} 
+}

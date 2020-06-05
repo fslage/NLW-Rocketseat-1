@@ -1,7 +1,7 @@
 body::after {
     background: white;
     content: "";
-    position: fixed; 
+    position: fixed;
     top: 270px;
     right: 0;
     left: 0;

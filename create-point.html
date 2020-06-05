@@ -1,26 +1,27 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Criar um ponto de coleta</title>
-    
+
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&family=Ubuntu:wght@700&display=swap" rel="stylesheet">
-    
+
     <!-- CSS -->
     <link rel="stylesheet" href="./css/main.css">
-    <link rel="stylesheet" href="./css/create-point.css"> 
+    <link rel="stylesheet" href="./css/create-point.css">
     <link rel="stylesheet" href="./css/responsive.css">
-        
+
 </head>
+
 <body>
     <div id="page-create-point">
         <header>
             <img src="/assets/logo.svg" alt="logomarca">
             <a href="index.html">
-                <span></span>
-                Voltar para home 
+                <span></span> Voltar para home
             </a>
         </header>
 
@@ -58,7 +59,7 @@
                         </select>
                         <input type="hidden" name="state">
                     </div>
-                    
+
                     <div class="field">
                         <label for="city">Cidade</label>
                         <select name="city" disabled required>
@@ -66,7 +67,7 @@
                         </select>
                     </div>
 
-                    
+
                 </div>
             </fieldset>
 
@@ -74,7 +75,7 @@
             <fieldset>
                 <legend>
                     <h2>Itens de coleta</h2>
-                </legend> 
+                </legend>
 
                 <div class="items-grid">
                     <li data-id="1">
@@ -102,14 +103,15 @@
                         <span>Óleo de Cozinha</span>
                     </li>
                 </div>
-                
+
                 <input type="hidden" name="items">
             </fieldset>
             <button type="submit">Cadastrar ponto de coleta</button>
         </form>
-        
-             
-    </div>   
+
+
+    </div>
     <script src="./js/create-point.js"></script>
 </body>
+
 </html>
