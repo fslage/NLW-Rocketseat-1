@@ -69,6 +69,7 @@ function handleSelectedItem(event) {
     const alreadySelected = selectedItems.findIndex(item => {
         const itemFound = item == itemId; // será true ou false
         return itemFound;
+
     });
 
     // se já estiver selecionado tirar da seleção
